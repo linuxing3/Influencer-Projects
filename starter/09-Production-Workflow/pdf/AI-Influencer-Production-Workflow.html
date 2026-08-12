@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="AI Virtual Influencer Starter Kit" />
+  <title>AI Influencer Production Workflow</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="/share/data/sources/AI-Virtual-Influencer-Starter-Kit/09-Production-Workflow/style.css" />
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">AI Influencer Production Workflow</h1>
+<p class="subtitle">From Character to Consistent Instagram Content</p>
+<p class="author">AI Virtual Influencer Starter Kit</p>
+</header>
+<div class="pagebreak">
+
+</div>
+<h1 id="ai-influencer-production-workflow">AI Influencer Production
+Workflow</h1>
+<h2 id="from-character-to-consistent-instagram-content">From Character
+to Consistent Instagram Content</h2>
+<p>This document is the master production system for the starter kit. It
+connects character setup, content ideas, calendars, image generation,
+Canva polish, Instagram publishing, and weekly review into one
+repeatable loop.</p>
+<p><strong>Primary platform:</strong> Instagram (feed, Reels,
+Stories)<br />
+<strong>Secondary:</strong> X and TikTok / YouTube Shorts (repurpose
+only after the Instagram loop works)</p>
+<p><strong>What you will run:</strong></p>
+<ul>
+<li>A one-time setup phase</li>
+<li>A weekly batch production phase</li>
+<li>A light daily publish + engage phase</li>
+<li>A weekly / monthly performance review</li>
+</ul>
+<p>Treat your AI influencer like a media brand. Consistency beats
+volume.</p>
+<div class="pagebreak">
+
+</div>
+<h1 id="workflow-map">1 — Workflow Map</h1>
+<pre class="text"><code>Character Bible
+      ↓
+Visual Identity + Base Prompt
+      ↓
+(Optional) Reference pack / LoRA via prepare_pack.py
+      ↓
+Content Pillars
+      ↓
+Idea Bank  (03-Content-Ideas)
+      ↓
+Calendar   (04-Calendar — 7-day / 30-day / weekly)
+      ↓
+Batch image generation  (02-Prompts)
+      ↓
+Quality gate  (face · hands · lighting · outfit · voice)
+      ↓
+Canva polish  (05-Canva)
+      ↓
+Captions + hashtags  (02-Prompts bonuses)
+      ↓
+Instagram publish
+      ↓
+Engagement window
+      ↓
+Weekly performance review → next calendar</code></pre>
+<h2 id="folder-roles">Folder roles</h2>
+<table>
+<colgroup>
+<col style="width: 57%" />
+<col style="width: 42%" />
+</colgroup>
+<thead>
+<tr>
+<th>Folder</th>
+<th>Role</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>01-Workbook</code></td>
+<td>Concept, niche, character, pillars, monetization worksheets</td>
+</tr>
+<tr>
+<td><code>00-Character</code></td>
+<td>Visual pack, captions for training / reference consistency</td>
+</tr>
+<tr>
+<td><code>02-Prompts</code></td>
+<td>Image prompts + caption / hook / X templates</td>
+</tr>
+<tr>
+<td><code>03-Content-Ideas</code></td>
+<td>Idea bank, formulas, custom idea worksheet</td>
+</tr>
+<tr>
+<td><code>04-Calendar</code></td>
+<td>Launch plan, 30-day grid, weekly batch planner</td>
+</tr>
+<tr>
+<td><code>05-Canva</code></td>
+<td>Sizes, design system, layout briefs</td>
+</tr>
+<tr>
+<td><code>09-Ops</code></td>
+<td>Operator SOPs, publish QA, repurpose matrix</td>
+</tr>
+</tbody>
+</table>
+<div class="pagebreak">
+
+</div>
+<h1 id="tool-stack-defaults">2 — Tool Stack (Defaults)</h1>
+<p>You can swap tools. Keep <strong>one tool per step</strong> so the
+system stays simple.</p>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 17%" />
+<col style="width: 54%" />
+<col style="width: 28%" />
+</colgroup>
+<thead>
+<tr>
+<th>Step</th>
+<th>Default tool type</th>
+<th>Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Text / planning</td>
+<td>Chat LLM</td>
+<td>ChatGPT, Claude, Gemini</td>
+</tr>
+<tr>
+<td>Image generation</td>
+<td>Image AI</td>
+<td>Midjourney, Flux, Leonardo, DALL·E, etc.</td>
+</tr>
+<tr>
+<td>Design / resize</td>
+<td>Canva</td>
+<td>Free or Pro</td>
+</tr>
+<tr>
+<td>Primary publish</td>
+<td>Instagram app or scheduler</td>
+<td>Meta Business Suite, Later, etc.</td>
+</tr>
+<tr>
+<td>Optional LoRA pack</td>
+<td>Local script</td>
+<td><code>00-Character/character/prepare_pack.py</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="base-character-prompt-reuse-every-time">Base character prompt
+(reuse every time)</h2>
+<pre class="text"><code>A realistic AI influencer named [Name], [Age] years old, from [Country],
+with [hair], [eyes], [skin tone], [style], [personality],
+consistent facial identity, Instagram lifestyle photography, natural lighting.</code></pre>
+<p>Save this in a note titled <strong>Base Prompt</strong>. Paste it
+into every image generation session.</p>
+<div class="pagebreak">
+
+</div>
+<h1 id="phase-a-one-time-setup-day-12">3 — Phase A: One-Time Setup (Day
+1–2)</h1>
+<p>Complete these once before you batch content.</p>
+<h2 id="a1.-character-bible">A1. Character bible</h2>
+<p>Use <code>01-Workbook</code> worksheets:</p>
+<ul>
+<li>Influencer concept</li>
+<li>Niche selection</li>
+<li>Character profile</li>
+<li>Visual identity</li>
+<li>Content pillars</li>
+<li>Platform plan (Instagram primary)</li>
+</ul>
+<p><strong>Lock these fields:</strong> name, age range, face
+description, hair, eyes, skin, style, personality, brand colors (3–5),
+niche, caption voice.</p>
+<h2 id="a2.-visual-references">A2. Visual references</h2>
+<ol type="1">
+<li>Generate 10–20 test images with the base prompt.</li>
+<li>Keep the best 3–5 as <strong>face references</strong>.</li>
+<li>Optionally prepare a training pack with
+<code>00-Character/character/prepare_pack.py</code> (see
+<code>09-Ops/prepare-pack-usage.md</code>).</li>
+</ol>
+<h2 id="a3.-account-skeleton-instagram">A3. Account skeleton
+(Instagram)</h2>
+<ul class="task-list">
+<li><label><input type="checkbox" />Username available and
+on-brand</label></li>
+<li><label><input type="checkbox" />Profile photo (clear face,
+consistent look)</label></li>
+<li><label><input type="checkbox" />Bio with niche + personality in one
+line</label></li>
+<li><label><input type="checkbox" />Link (Linktree, Beacons, site, or
+first offer)</label></li>
+<li><label><input type="checkbox" />Highlights plan (About, Looks, Tips,
+Travel, etc.)</label></li>
+</ul>
+<h2 id="a4.-content-system">A4. Content system</h2>
+<ul class="task-list">
+<li><label><input type="checkbox" />3–5 content pillars
+chosen</label></li>
+<li><label><input type="checkbox" />20–30 ideas pulled from
+<code>03-Content-Ideas</code> or written on the Idea Bank
+worksheet</label></li>
+<li><label><input type="checkbox" />7-day launch calendar filled
+(<code>04-Calendar</code>)</label></li>
+<li><label><input type="checkbox" />Canva brand kit started
+(<code>05-Canva</code>)</label></li>
+</ul>
+<div class="pagebreak">
+
+</div>
+<h1 id="phase-b-weekly-batch-24-hours">4 — Phase B: Weekly Batch (2–4
+hours)</h1>
+<p>Do this once per week. Do <strong>not</strong> create posts
+one-by-one every day if you can batch.</p>
+<h2 id="b1.-plan-3045-min">B1. Plan (30–45 min)</h2>
+<ol type="1">
+<li>Open <code>04-Calendar/Weekly-Batch-Planner.md</code>.</li>
+<li>Pick 7–12 ideas from the idea bank (mix pillars).</li>
+<li>Mark formats: feed photo · carousel · Reel · Story.</li>
+<li>Apply <strong>80% lifestyle / 20% soft promo</strong>.</li>
+</ol>
+<h2 id="b2.-generate-images-4590-min">B2. Generate images (45–90
+min)</h2>
+<ol type="1">
+<li>Use prompts from
+<code>02-Prompts/100-AI-Influencer-Prompts.md</code>.</li>
+<li>Always prepend the base character prompt.</li>
+<li>Generate in batches of 3–5 scenes.</li>
+<li>Save winners only. Delete weak outputs immediately.</li>
+</ol>
+<h2 id="b3.-quality-gate-1520-min">B3. Quality gate (15–20 min)</h2>
+<p>Before Canva or posting, check:</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />Face matches references</label></li>
+<li><label><input type="checkbox" />Hair / eyes / skin
+consistent</label></li>
+<li><label><input type="checkbox" />Hands acceptable (or
+cropped)</label></li>
+<li><label><input type="checkbox" />Lighting matches brand</label></li>
+<li><label><input type="checkbox" />Outfit fits niche</label></li>
+<li><label><input type="checkbox" />Background makes sense</label></li>
+<li><label><input type="checkbox" />No random text, logos, or extra
+limbs</label></li>
+<li><label><input type="checkbox" />Image sharp enough for
+mobile</label></li>
+</ul>
+<p>Full checklist: <code>09-Ops/quality-gate.md</code>.</p>
+<h2 id="b4.-canva-polish-3045-min">B4. Canva polish (30–45 min)</h2>
+<ol type="1">
+<li>Resize to Instagram specs
+(<code>05-Canva/Instagram-Size-Specs.md</code>).</li>
+<li>Add overlays only when needed (quotes, tips, carousel numbers).</li>
+<li>Keep safe margins; do not cover the face with text.</li>
+<li>Export PNG or high-quality JPG.</li>
+</ol>
+<h2 id="b5.-captions-2030-min">B5. Captions (20–30 min)</h2>
+<ol type="1">
+<li>Match character voice (warm, bold, educational, etc.).</li>
+<li>Use <code>02-Prompts/Bonus-30-Instagram-Captions.md</code> as
+starters.</li>
+<li>One idea per caption. Soft CTA when promo.</li>
+<li>Prepare 5–15 hashtags (niche + mid-size, not only mega tags).</li>
+</ol>
+<h2 id="b6.-stage-for-publish">B6. Stage for publish</h2>
+<ul>
+<li>Folder structure suggestion:
+<code>week-YYYY-MM-DD / 01-raw · 02-approved · 03-canva · 04-ready</code></li>
+<li>Name files: <code>YYYY-MM-DD_pillar_format.ext</code></li>
+</ul>
+<div class="pagebreak">
+
+</div>
+<h1 id="phase-c-daily-publish-engage-1525-min">5 — Phase C: Daily
+Publish + Engage (15–25 min)</h1>
+<h2 id="publish-instagram-first">Publish (Instagram first)</h2>
+<ol type="1">
+<li>Post from the ready folder.</li>
+<li>Use <code>09-Ops/instagram-publish-checklist.md</code>.</li>
+<li>Alternate feed and Reels so the grid does not look random.</li>
+<li>Cross-post a Story: still + sticker or poll.</li>
+</ol>
+<h2 id="engagement-window-1015-min-after-post">Engagement window (10–15
+min after post)</h2>
+<ul>
+<li>Reply to early comments</li>
+<li>Like / reply to relevant niche accounts</li>
+<li>Save questions as future content ideas</li>
+</ul>
+<h2 id="secondary-channels-optional-same-day">Secondary channels
+(optional same day)</h2>
+<p>Only after Instagram is consistent:</p>
+<ul>
+<li>X: shorter text take or hook
+(<code>Bonus-50-Viral-X-Post-Templates</code>)</li>
+<li>TikTok / Shorts: repurpose Reels with a new hook
+(<code>Bonus-30-YouTube-Hooks</code>)</li>
+</ul>
+<p>See <code>09-Ops/repurpose-matrix.md</code>.</p>
+<div class="pagebreak">
+
+</div>
+<h1 id="phase-d-review-loop">6 — Phase D: Review Loop</h1>
+<h2 id="weekly-sunday-or-monday">Weekly (Sunday or Monday)</h2>
+<p>Use <code>09-Ops/performance-review.md</code>:</p>
+<ul>
+<li>Top 3 posts (reach, saves, follows, comments)</li>
+<li>Best pillar this week</li>
+<li>Worst format to pause or improve</li>
+<li>3 ideas for next week from comments / DMs</li>
+</ul>
+<h2 id="monthly">Monthly</h2>
+<ul>
+<li>Refresh 10 ideas into the idea bank</li>
+<li>Update bio or highlights if niche sharpened</li>
+<li>Test one monetization move (affiliate, digital product, brand pitch
+list)</li>
+</ul>
+<div class="pagebreak">
+
+</div>
+<h1 id="content-rules">7 — Content Rules</h1>
+<h2 id="mix">80 / 20 mix</h2>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Share</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lifestyle / value</td>
+<td>~80%</td>
+<td>Trust, recognition, saves</td>
+</tr>
+<tr>
+<td>Soft promo</td>
+<td>~20%</td>
+<td>Offers, affiliates, products, collabs</td>
+</tr>
+</tbody>
+</table>
+<h2 id="content-pillars-pick-35">Content pillars (pick 3–5)</h2>
+<p>Examples (customize):</p>
+<ol type="1">
+<li>Daily life / aesthetic</li>
+<li>Niche moments (travel, fashion, fitness, AI…)</li>
+<li>Tips and recommendations</li>
+<li>Behind the scenes / process</li>
+<li>Soft product or affiliate</li>
+</ol>
+<h2 id="consistency-non-negotiable">Consistency (non-negotiable)</h2>
+<p>Keep stable:</p>
+<ul>
+<li>Face shape and features</li>
+<li>Hair color and usual style</li>
+<li>Eye color and skin tone</li>
+<li>Age range</li>
+<li>Overall fashion vibe</li>
+<li>Caption voice</li>
+<li>Niche promise</li>
+</ul>
+<p>Change freely:</p>
+<ul>
+<li>Locations</li>
+<li>Outfits within style</li>
+<li>Props and activities</li>
+<li>Formats (photo vs Reel)</li>
+</ul>
+<div class="pagebreak">
+
+</div>
+<h1 id="instagram-first-rules">8 — Instagram-First Rules</h1>
+<h2 id="formats">Formats</h2>
+<table>
+<thead>
+<tr>
+<th>Format</th>
+<th>Best for</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Feed 4:5 photo</td>
+<td>Grid identity, lifestyle</td>
+</tr>
+<tr>
+<td>Carousel</td>
+<td>Tips, outfit details, story beats</td>
+</tr>
+<tr>
+<td>Reel 9:16</td>
+<td>Discovery, trends, hooks</td>
+</tr>
+<tr>
+<td>Story 9:16</td>
+<td>Daily presence, polls, links</td>
+</tr>
+</tbody>
+</table>
+<h2 id="cadence-beginner-defaults">Cadence (beginner defaults)</h2>
+<p>See full guide:
+<code>04-Calendar/Instagram-Posting-Cadence.md</code>.</p>
+<ul>
+<li><strong>Launch week:</strong> 1 post/day (mix feed + Reel)</li>
+<li><strong>Steady state:</strong> 4–7 feed/Reels per week + Stories
+most days</li>
+<li>Prefer consistency over daily burnout</li>
+</ul>
+<h2 id="grid-rhythm">Grid rhythm</h2>
+<p>Alternate light/dark or calm/busy so the profile looks intentional.
+Avoid three hard-promo posts in a row.</p>
+<div class="pagebreak">
+
+</div>
+<h1 id="monetization-insertion-points">9 — Monetization Insertion
+Points</h1>
+<p>Do not wait for 100k followers. Insert soft monetization after 2–4
+weeks of consistent posting.</p>
+<table>
+<thead>
+<tr>
+<th>Slot</th>
+<th>Calendar use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Soft mention</td>
+<td>1 post per week (product in scene, no hard sell)</td>
+</tr>
+<tr>
+<td>Direct promo</td>
+<td>1 post every 1–2 weeks</td>
+</tr>
+<tr>
+<td>Story swipe / link</td>
+<td>After value posts</td>
+</tr>
+<tr>
+<td>Affiliate in bio</td>
+<td>Always available, rarely shouted</td>
+</tr>
+</tbody>
+</table>
+<p>Workbook Page 10 and the monetization worksheet define offers. The
+calendar marks promo days with a <strong>P</strong> flag.</p>
+<div class="pagebreak">
+
+</div>
+<h1 id="minute-first-run">10 — 60-Minute First Run</h1>
+<p>Use this if you want progress today.</p>
+<table>
+<thead>
+<tr>
+<th>Minutes</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0–10</td>
+<td>Fill name, niche, 3 pillars (workbook concept page)</td>
+</tr>
+<tr>
+<td>10–20</td>
+<td>Write base character prompt</td>
+</tr>
+<tr>
+<td>20–35</td>
+<td>Generate 5 images; keep best 2</td>
+</tr>
+<tr>
+<td>35–45</td>
+<td>Pick 3 ideas from <code>03-Content-Ideas</code></td>
+</tr>
+<tr>
+<td>45–55</td>
+<td>Write 3 captions; resize 1 image in Canva</td>
+</tr>
+<tr>
+<td>55–60</td>
+<td>Draft bio + username list</td>
+</tr>
+</tbody>
+</table>
+<p>Tomorrow: finish the 7-day launch calendar and post the first
+image.</p>
+<div class="pagebreak">
+
+</div>
+<h1 id="quality-gate-quick-card">11 — Quality Gate (Quick Card)</h1>
+<p>Print or pin this.</p>
+<p><strong>Visual</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox" />Same face as references</label></li>
+<li><label><input type="checkbox" />Hands OK or cropped</label></li>
+<li><label><input type="checkbox" />Lighting on-brand</label></li>
+<li><label><input type="checkbox" />Outfit + niche fit</label></li>
+<li><label><input type="checkbox" />No glitches / weird
+text</label></li>
+</ul>
+<p><strong>Copy</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox" />Sounds like the
+character</label></li>
+<li><label><input type="checkbox" />One clear idea</label></li>
+<li><label><input type="checkbox" />CTA matches post type (none / soft /
+promo)</label></li>
+<li><label><input type="checkbox" />Hashtags relevant</label></li>
+</ul>
+<p><strong>Platform</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox" />Correct aspect ratio</label></li>
+<li><label><input type="checkbox" />Alt text written</label></li>
+<li><label><input type="checkbox" />First comment ready
+(optional)</label></li>
+<li><label><input type="checkbox" />Story cross-post
+planned</label></li>
+</ul>
+<p>Full version: <code>09-Ops/quality-gate.md</code>.</p>
+<div class="pagebreak">
+
+</div>
+<h1 id="common-failure-modes">12 — Common Failure Modes</h1>
+<table>
+<colgroup>
+<col style="width: 64%" />
+<col style="width: 35%" />
+</colgroup>
+<thead>
+<tr>
+<th>Problem</th>
+<th>Fix</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Face changes every post</td>
+<td>Lock base prompt; use references; fewer style changes</td>
+</tr>
+<tr>
+<td>Account feels random</td>
+<td>Fewer pillars; stick to calendar</td>
+</tr>
+<tr>
+<td>Burnout</td>
+<td>Weekly batch; fewer daily decisions</td>
+</tr>
+<tr>
+<td>No growth</td>
+<td>More Reels; stronger hooks; niche clarity</td>
+</tr>
+<tr>
+<td>No income</td>
+<td>Add 20% soft promo; clear offer in bio</td>
+</tr>
+<tr>
+<td>Over-designed Canva</td>
+<td>Less text; let the photo lead</td>
+</tr>
+</tbody>
+</table>
+<div class="pagebreak">
+
+</div>
+<h1 id="start-checklist">13 — Start Checklist</h1>
+<ul class="task-list">
+<li><label><input type="checkbox" />Read this workflow once</label></li>
+<li><label><input type="checkbox" />Complete workbook character + niche
+pages</label></li>
+<li><label><input type="checkbox" />Save base prompt</label></li>
+<li><label><input type="checkbox" />Build 20+ ideas
+(<code>03-Content-Ideas</code>)</label></li>
+<li><label><input type="checkbox" />Fill 7-day calendar
+(<code>04-Calendar</code>)</label></li>
+<li><label><input type="checkbox" />Generate first image
+batch</label></li>
+<li><label><input type="checkbox" />Pass quality gate</label></li>
+<li><label><input type="checkbox" />Polish in Canva
+(<code>05-Canva</code>)</label></li>
+<li><label><input type="checkbox" />Publish first 3 Instagram
+posts</label></li>
+<li><label><input type="checkbox" />Schedule weekly batch
+time</label></li>
+<li><label><input type="checkbox" />Run first performance review after 7
+days</label></li>
+</ul>
+<p><strong>Launch goal:</strong> publish before you feel ready. Improve
+with real feedback.</p>
+<hr />
+<h2 id="next-documents">Next documents</h2>
+<table>
+<thead>
+<tr>
+<th>Need</th>
+<th>Open</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ideas</td>
+<td><code>03-Content-Ideas/</code></td>
+</tr>
+<tr>
+<td>Schedule</td>
+<td><code>04-Calendar/</code></td>
+</tr>
+<tr>
+<td>Design</td>
+<td><code>05-Canva/</code></td>
+</tr>
+<tr>
+<td>Operator weekly run</td>
+<td><code>09-Ops/PRODUCTION-SOP.md</code></td>
+</tr>
+<tr>
+<td>Prompts &amp; captions</td>
+<td><code>02-Prompts/</code></td>
+</tr>
+<tr>
+<td>Concept worksheets</td>
+<td><code>01-Workbook/</code></td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

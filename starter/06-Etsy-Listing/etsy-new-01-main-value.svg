@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2700" height="2025" viewBox="0 0 2700 2025"><style>
+.title{font-family:Arial,Helvetica,sans-serif;font-weight:900;letter-spacing:-2px;fill:#fff}
+.titleDark{font-family:Arial,Helvetica,sans-serif;font-weight:900;letter-spacing:-1.5px;fill:#111827}
+.sub{font-family:Arial,Helvetica,sans-serif;font-weight:700;fill:#f8fafc}
+.muted{font-family:Arial,Helvetica,sans-serif;font-weight:700;fill:#475569}
+.small{font-family:Arial,Helvetica,sans-serif;font-weight:700;fill:#cbd5e1}
+.micro{font-family:Arial,Helvetica,sans-serif;font-weight:600;fill:#64748b}
+.badge{font-family:Arial,Helvetica,sans-serif;font-weight:900;fill:#0f172a}
+.white{font-family:Arial,Helvetica,sans-serif;font-weight:900;fill:#fff}
+</style>
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#080817"/>
+        <stop offset="45%" stop-color="#43208d"/>
+        <stop offset="100%" stop-color="#fb7a21"/>
+      </linearGradient>
+      <linearGradient id="cream" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#fff7ed"/>
+        <stop offset="100%" stop-color="#f8fafc"/>
+      </linearGradient>
+      <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#ffffff"/>
+        <stop offset="100%" stop-color="#f1f5f9"/>
+      </linearGradient>
+      <filter id="shadow" x="-20%" y="-20%" width="150%" height="150%">
+        <feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#000" flood-opacity="0.28"/>
+      </filter>
+      <filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="50"/></filter>
+    </defs>
+    
+<rect width="100%" height="100%" fill="url(#bg)"/>
+<circle cx="2320" cy="250" r="380" fill="#fb923c" opacity="0.34" filter="url(#soft)"/>
+<text x="145" y="210" class="small" font-size="46">DIGITAL DOWNLOAD • LAUNCH OFFER $14.99</text>
+<text x="145" y="405" class="title" font-size="132">AI CREATOR KIT</text>
+<text x="150" y="520" class="sub" font-size="56">Launch Your Content Brand Faster</text>
+<rect x="145" y="690" width="1040" height="600" rx="46" fill="#fff" opacity="0.96"/>
+<text x="215" y="815" class="muted" font-size="54">✓ 100 AI Prompts</text><text x="215" y="911" class="muted" font-size="54">✓ 50 X Templates</text><text x="215" y="1007" class="muted" font-size="54">✓ 30 YouTube Hooks</text><text x="215" y="1103" class="muted" font-size="54">✓ 30 Instagram Captions</text><text x="215" y="1199" class="muted" font-size="54">✓ Workbook</text>
+
+    <g filter="url(#shadow)">
+      <rect x="1510" y="360" width="570" height="720" rx="28" fill="url(#paper)"/>
+      <rect x="1510" y="360" width="570" height="125" rx="28" fill="#fb7a21"/>
+      <rect x="1510" y="452" width="570" height="45" fill="#fb7a21"/>
+      <text x="1554" y="438" class="white" font-size="38">PDF</text>
+      <text x="1554" y="570" class="titleDark" font-size="44">Prompt Pack</text>
+      <text x="1554" y="670" class="micro" font-size="30">100 AI prompts</text>
+      <rect x="1554" y="720" width="482" height="16" rx="8" fill="#e5e7eb"/>
+      <rect x="1554" y="765" width="420" height="16" rx="8" fill="#e5e7eb"/>
+      <rect x="1554" y="810" width="455" height="16" rx="8" fill="#e5e7eb"/>
+      <circle cx="1992" cy="1002" r="44" fill="#fb7a21" opacity="0.9"/>
+    </g>
+
+    <g filter="url(#shadow)">
+      <rect x="1840" y="680" width="570" height="720" rx="28" fill="url(#paper)"/>
+      <rect x="1840" y="680" width="570" height="125" rx="28" fill="#7c3aed"/>
+      <rect x="1840" y="772" width="570" height="45" fill="#7c3aed"/>
+      <text x="1884" y="758" class="white" font-size="38">PDF</text>
+      <text x="1884" y="890" class="titleDark" font-size="44">Workbook</text>
+      <text x="1884" y="990" class="micro" font-size="30">creator planner</text>
+      <rect x="1884" y="1040" width="482" height="16" rx="8" fill="#e5e7eb"/>
+      <rect x="1884" y="1085" width="420" height="16" rx="8" fill="#e5e7eb"/>
+      <rect x="1884" y="1130" width="455" height="16" rx="8" fill="#e5e7eb"/>
+      <circle cx="2322" cy="1322" r="44" fill="#7c3aed" opacity="0.9"/>
+    </g>
+
+    <g filter="url(#shadow)">
+      <rect x="1330" y="1030" width="740" height="520" rx="32" fill="#ffffff"/>
+      <rect x="1330" y="1030" width="740" height="95" rx="32" fill="#111827"/>
+      <circle cx="1388" cy="1078" r="13" fill="#fb7185"/><circle cx="1430" cy="1078" r="13" fill="#fbbf24"/><circle cx="1472" cy="1078" r="13" fill="#34d399"/>
+      <text x="1385" y="1180" class="titleDark" font-size="42">Creator Planner</text>
+      <rect x="1385" y="1220" width="630" height="34" rx="12" fill="#e2e8f0" opacity="0.9"/><rect x="1385" y="1290" width="630" height="34" rx="12" fill="#fed7aa" opacity="0.9"/><rect x="1385" y="1360" width="630" height="34" rx="12" fill="#ddd6fe" opacity="0.9"/><rect x="1385" y="1430" width="630" height="34" rx="12" fill="#e2e8f0" opacity="0.9"/><rect x="1385" y="1500" width="630" height="34" rx="12" fill="#c7d2fe" opacity="0.9"/><rect x="1385" y="1570" width="630" height="34" rx="12" fill="#e2e8f0" opacity="0.9"/>
+    </g>
+<rect x="145" y="1590" width="720" height="115" rx="58" fill="#fb7a21"/>
+<text x="218" y="1665" class="white" font-size="48">50% OFF TODAY</text>
+</svg>

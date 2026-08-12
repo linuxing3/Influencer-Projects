@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2700" height="2025" viewBox="0 0 2700 2025"><style>
+.h1{font-family:Arial Black,Arial,sans-serif;font-weight:900;letter-spacing:-5px;fill:#fff}
+.ai{font-family:Arial Black,Arial,sans-serif;font-weight:900;letter-spacing:-5px;fill:#b45cff}
+.h2{font-family:Arial Black,Arial,sans-serif;font-weight:900;fill:#fff}
+.body{font-family:Arial,Helvetica,sans-serif;font-weight:800;fill:#eef2ff}
+.muted{font-family:Arial,Helvetica,sans-serif;font-weight:700;fill:#a5b4fc}
+.purple{font-family:Arial Black,Arial,sans-serif;font-weight:900;fill:#b45cff}
+.orange{font-family:Arial Black,Arial,sans-serif;font-weight:900;fill:#ffb703}
+.dark{font-family:Arial Black,Arial,sans-serif;font-weight:900;fill:#080816}
+.small{font-family:Arial,Helvetica,sans-serif;font-weight:900;fill:#fff}
+</style><defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#03030b"/><stop offset="0.42" stop-color="#0b1025"/><stop offset="1" stop-color="#2b075e"/></linearGradient>
+      <radialGradient id="violet" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#b45cff" stop-opacity=".9"/><stop offset="1" stop-color="#b45cff" stop-opacity="0"/></radialGradient>
+      <linearGradient id="sunset" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7c3aed"/><stop offset=".55" stop-color="#f97316"/><stop offset="1" stop-color="#111827"/></linearGradient>
+      <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#17122d"/><stop offset="1" stop-color="#050713"/></linearGradient>
+      <filter id="shadow" x="-30%" y="-30%" width="170%" height="170%"><feDropShadow dx="0" dy="24" stdDeviation="26" flood-color="#000" flood-opacity=".58"/></filter>
+      <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="42"/></filter>
+      <filter id="neon" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="#b45cff" flood-opacity=".9"/></filter>
+    </defs><rect width="100%" height="100%" fill="url(#bg)"/>
+      <circle cx="1998.0" cy="506.25" r="702.0" fill="url(#violet)" filter="url(#glow)" opacity=".88"/>
+      <circle cx="351.0" cy="1680.75" r="594.0" fill="#7c3aed" filter="url(#glow)" opacity=".32"/>
+      <path d="M0,1741.5 C621.0,1539.0 1485.0000000000002,1944.0 2700,1579.5 L2700,2025 L0,2025Z" fill="#050713" opacity=".78"/><rect x="70" y="54" width="720" height="68" rx="34" fill="#0a0a18" stroke="#7c3aed" stroke-width="2"/>
+      <text x="108" y="99" class="small" font-size="28">DIGITAL DOWNLOAD  |  LAUNCH OFFER </text>
+      <text x="665" y="99" class="orange" font-size="30">$14.99</text><text x="88" y="270" class="ai" font-size="150">AI</text><text x="286" y="270" class="h1" font-size="150"> CREATOR KIT</text><text x="96" y="380" class="h2" font-size="62">Launch Your Content Brand <tspan fill="#b45cff">Faster</tspan></text><text x="98" y="465" class="body" font-size="36">Everything You Need to Create, Grow &amp; Monetize Your Faceless Content Brand</text><circle cx="128" cy="608" r="21" fill="#2b075e" stroke="#b45cff" stroke-width="3"/><text x="116" y="620" class="purple" font-size="31">✓</text><text x="176" y="620" class="body" font-size="41">100 AI Prompts</text><circle cx="128" cy="684" r="21" fill="#2b075e" stroke="#b45cff" stroke-width="3"/><text x="116" y="696" class="purple" font-size="31">✓</text><text x="176" y="696" class="body" font-size="41">50 X (Twitter) Templates</text><circle cx="128" cy="760" r="21" fill="#2b075e" stroke="#b45cff" stroke-width="3"/><text x="116" y="772" class="purple" font-size="31">✓</text><text x="176" y="772" class="body" font-size="41">30 YouTube Hooks</text><circle cx="128" cy="836" r="21" fill="#2b075e" stroke="#b45cff" stroke-width="3"/><text x="116" y="848" class="purple" font-size="31">✓</text><text x="176" y="848" class="body" font-size="41">30 Instagram Captions</text><circle cx="128" cy="912" r="21" fill="#2b075e" stroke="#b45cff" stroke-width="3"/><text x="116" y="924" class="purple" font-size="31">✓</text><text x="176" y="924" class="body" font-size="41">Workbook &amp; Planner</text><circle cx="128" cy="988" r="21" fill="#2b075e" stroke="#b45cff" stroke-width="3"/><text x="116" y="1000" class="purple" font-size="31">✓</text><text x="176" y="1000" class="body" font-size="41">BONUS: Notion Dashboard</text><g filter="url(#shadow)">
+      <rect x="1060" y="380" width="480" height="660" rx="22" fill="#f8fafc"/>
+      <rect x="1086" y="406" width="428" height="608" rx="18" fill="#0b1025"/>
+      <rect x="1110" y="570" width="380" height="360" rx="20" fill="url(#sunset)"/>
+      <circle cx="1381.6" cy="650" r="62" fill="#facc15" opacity=".7"/>
+      <circle cx="1309.6" cy="850" r="54" fill="#050713"/><rect x="1290.4" y="895" width="90" height="135" rx="38" fill="#050713"/>
+      <text x="1108" y="470" class="ai" font-size="42">AI</text><text x="1180" y="470" class="small" font-size="40">CREATOR KIT</text>
+      <text x="1108" y="520" class="muted" font-size="22">Launch Your Content Brand Faster</text>
+      <rect x="1110" y="958" width="380" height="48" rx="24" fill="#b45cff"/>
+      <text x="1156" y="990" class="small" font-size="22">INSTANT DOWNLOAD</text>
+    </g><g filter="url(#shadow)">
+      <rect x="1290" y="1085" width="760" height="430" rx="26" fill="#0b1025" stroke="#4c1d95" stroke-width="5"/>
+      <rect x="1325" y="1133" width="690" height="335" rx="18" fill="#111827"/>
+      <text x="1360" y="1190" class="small" font-size="26">Creator OS Dashboard</text>
+      <rect x="1360" y="1230" width="620" height="74" rx="16" fill="#2b075e"/><text x="1385" y="1277" class="purple" font-size="26">Today’s Focus: Plan → Create → Post</text>
+      <rect x="1360" y="1335" width="295.0" height="116" rx="18" fill="#172554"/><text x="1385" y="1400" class="small" font-size="24">Content Pipeline</text>
+      <rect x="1680.0" y="1335" width="295.0" height="116" rx="18" fill="#312e81"/><text x="1710.0" y="1400" class="small" font-size="24">Content Calendar</text>
+      <rect x="1370" y="1505" width="600" height="34" rx="17" fill="#0f172a"/>
+    </g><g filter="url(#shadow)"><rect x="2090" y="830" width="330" height="565" rx="42" fill="#030712" stroke="#64748b" stroke-width="6"/>
+      <rect x="2115" y="888" width="280" height="473" rx="28" fill="#111827"/>
+      <text x="2135" y="950" class="small" font-size="22">Social Post</text>
+      <rect x="2135" y="985" width="240" height="108" rx="18" fill="#2b075e"/><text x="2154" y="1045" class="purple" font-size="24">Hook + Caption</text>
+      <rect x="2135" y="1125" width="240" height="30" rx="12" fill="#334155"/><rect x="2135" y="1175" width="200" height="30" rx="12" fill="#334155"/>
+    </g><g filter="url(#shadow)"><rect x="1760" y="360" width="620" height="170" rx="24" fill="url(#panel)" stroke="#b45cff" stroke-width="3"/><text x="1788" y="415" class="small" font-size="30">100 AI Prompts</text><text x="1788" y="460" class="muted" font-size="24">Selfie prompts</text><text x="1788" y="496" class="muted" font-size="24">Travel prompts</text><text x="1788" y="532" class="muted" font-size="24">Brand prompts</text></g><g filter="url(#shadow)"><rect x="1800" y="570" width="580" height="150" rx="24" fill="url(#panel)" stroke="#b45cff" stroke-width="3"/><text x="1828" y="625" class="small" font-size="30">30 YouTube Hooks</text><text x="1828" y="670" class="muted" font-size="24">Short-form video ideas</text></g><g filter="url(#shadow)"><rect x="1565" y="760" width="490" height="145" rx="24" fill="url(#panel)" stroke="#b45cff" stroke-width="3"/><text x="1593" y="815" class="small" font-size="30">50 X Templates</text><text x="1593" y="860" class="muted" font-size="24">Authority post frameworks</text></g><rect x="120" y="1695" width="350" height="95" rx="28" fill="#0b1025" stroke="#4c1d95" stroke-width="2"/><text x="145" y="1753" class="small" font-size="27">✓ Instant Download</text><rect x="535" y="1695" width="350" height="95" rx="28" fill="#0b1025" stroke="#4c1d95" stroke-width="2"/><text x="560" y="1753" class="small" font-size="27">✓ Beginner Friendly</text><rect x="950" y="1695" width="350" height="95" rx="28" fill="#0b1025" stroke="#4c1d95" stroke-width="2"/><text x="975" y="1753" class="small" font-size="27">✓ Lifetime Access</text><rect x="1365" y="1695" width="350" height="95" rx="28" fill="#0b1025" stroke="#4c1d95" stroke-width="2"/><text x="1390" y="1753" class="small" font-size="27">✓ Commercial Use</text><rect x="1780" y="1695" width="350" height="95" rx="28" fill="#0b1025" stroke="#4c1d95" stroke-width="2"/><text x="1805" y="1753" class="small" font-size="27">✓ Works with AI Tools</text><rect x="2195" y="1695" width="350" height="95" rx="28" fill="#0b1025" stroke="#4c1d95" stroke-width="2"/><text x="2220" y="1753" class="small" font-size="27">✓ Bonus Templates</text><rect x="0" y="1855" width="2700" height="170" fill="#070716"/>
+      <rect x="88" y="1893" width="420" height="88" rx="44" fill="#b45cff" filter="url(#neon)"/><text x="142" y="1951" class="small" font-size="38">50% OFF TODAY</text>
+      <text x="650" y="1963" class="orange" font-size="76">$14.99</text><text x="940" y="1957" class="muted" font-size="38">$29.99</text><line x1="936" y1="1943" x2="1084" y2="1921" stroke="#a5b4fc" stroke-width="5"/>
+      <rect x="2080" y="1899" width="505" height="78" rx="39" fill="#0b1025" stroke="#facc15" stroke-width="3"/><text x="2118" y="1950" class="orange" font-size="30">7-DAY MONEY BACK GUARANTEE ★★★★★</text></svg>

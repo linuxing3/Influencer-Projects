@@ -1,0 +1,3 @@
+file '/sources/luna-rio/clips/clip01.mp4'
+file '/sources/luna-rio/clips/clip02.mp4'
+file '/sources/luna-rio/clips/clip03.mp4'

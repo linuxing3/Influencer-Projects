@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2700" height="2025" viewBox="0 0 2700 2025"><style>
+.title{font-family:Arial,Helvetica,sans-serif;font-weight:900;letter-spacing:-2px;fill:#fff}
+.titleDark{font-family:Arial,Helvetica,sans-serif;font-weight:900;letter-spacing:-1.5px;fill:#111827}
+.sub{font-family:Arial,Helvetica,sans-serif;font-weight:700;fill:#f8fafc}
+.muted{font-family:Arial,Helvetica,sans-serif;font-weight:700;fill:#475569}
+.small{font-family:Arial,Helvetica,sans-serif;font-weight:700;fill:#cbd5e1}
+.micro{font-family:Arial,Helvetica,sans-serif;font-weight:600;fill:#64748b}
+.badge{font-family:Arial,Helvetica,sans-serif;font-weight:900;fill:#0f172a}
+.white{font-family:Arial,Helvetica,sans-serif;font-weight:900;fill:#fff}
+</style>
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#080817"/>
+        <stop offset="45%" stop-color="#43208d"/>
+        <stop offset="100%" stop-color="#fb7a21"/>
+      </linearGradient>
+      <linearGradient id="cream" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#fff7ed"/>
+        <stop offset="100%" stop-color="#f8fafc"/>
+      </linearGradient>
+      <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#ffffff"/>
+        <stop offset="100%" stop-color="#f1f5f9"/>
+      </linearGradient>
+      <filter id="shadow" x="-20%" y="-20%" width="150%" height="150%">
+        <feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#000" flood-opacity="0.28"/>
+      </filter>
+      <filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="50"/></filter>
+    </defs>
+    
+<rect width="100%" height="100%" fill="#fff7ed"/>
+<text x="145" y="220" class="titleDark" font-size="108">Simple Creator Workflow</text>
+<text x="150" y="325" class="muted" font-size="46">Turn prompts into content, audience, and income experiments</text>
+<rect x="225" y="690" width="430" height="250" rx="48" fill="#7c3aed" filter="url(#shadow)"/><text x="300" y="845" class="white" font-size="56">Prompt</text><rect x="840" y="690" width="430" height="250" rx="48" fill="#fb7a21" filter="url(#shadow)"/><text x="915" y="845" class="white" font-size="56">Content</text><rect x="1455" y="690" width="430" height="250" rx="48" fill="#0ea5e9" filter="url(#shadow)"/><text x="1530" y="845" class="white" font-size="56">Audience</text><rect x="2070" y="690" width="430" height="250" rx="48" fill="#16a34a" filter="url(#shadow)"/><text x="2145" y="845" class="white" font-size="56">Income</text>
+<text x="700" y="850" class="titleDark" font-size="80">↓</text><text x="1315" y="850" class="titleDark" font-size="80">↓</text><text x="1930" y="850" class="titleDark" font-size="80">↓</text>
+<rect x="145" y="1240" width="2410" height="300" rx="52" fill="#ffffff"/>
+<text x="245" y="1380" class="muted" font-size="56">Plan once. Generate faster. Post consistently.</text>
+</svg>

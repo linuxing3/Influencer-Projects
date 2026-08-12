@@ -1,0 +1,24 @@
+{
+  "images_data_url": "https://v3b.fal.media/files/b/0aa19b60/OpP8eTIS0q1uQ2zWcSxXP_LunaRio_V1.zip",
+  "trigger_word": "lunario",
+  "create_masks": true,
+  "steps": 1000,
+  "is_style": false,
+  "is_input_format_already_preprocessed": false,
+  "endpoint": "fal-ai/flux-lora-fast-training",
+  "result": {
+    "diffusers_lora_file": {
+      "url": "https://v3b.fal.media/files/b/0aa19b91/ShKMCJcQz6JGvlitPNmZr_pytorch_lora_weights.safetensors",
+      "content_type": "application/octet-stream",
+      "file_name": "pytorch_lora_weights.safetensors",
+      "file_size": 89745224
+    },
+    "config_file": {
+      "url": "https://v3b.fal.media/files/b/0aa19b91/5zkT7xVPbAXDuh80w6Nor_config.json",
+      "content_type": "application/octet-stream",
+      "file_name": "config.json",
+      "file_size": 721
+    },
+    "debug_preprocessed_output": null
+  }
+}

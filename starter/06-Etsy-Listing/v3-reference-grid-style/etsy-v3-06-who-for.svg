@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2700" height="2025" viewBox="0 0 2700 2025"><style>
+.h1{font-family:Arial Black,Arial,sans-serif;font-weight:900;letter-spacing:-5px;fill:#fff}
+.ai{font-family:Arial Black,Arial,sans-serif;font-weight:900;letter-spacing:-5px;fill:#b45cff}
+.h2{font-family:Arial Black,Arial,sans-serif;font-weight:900;fill:#fff}
+.body{font-family:Arial,Helvetica,sans-serif;font-weight:800;fill:#eef2ff}
+.muted{font-family:Arial,Helvetica,sans-serif;font-weight:700;fill:#a5b4fc}
+.purple{font-family:Arial Black,Arial,sans-serif;font-weight:900;fill:#b45cff}
+.orange{font-family:Arial Black,Arial,sans-serif;font-weight:900;fill:#ffb703}
+.dark{font-family:Arial Black,Arial,sans-serif;font-weight:900;fill:#080816}
+.small{font-family:Arial,Helvetica,sans-serif;font-weight:900;fill:#fff}
+</style><defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#03030b"/><stop offset="0.42" stop-color="#0b1025"/><stop offset="1" stop-color="#2b075e"/></linearGradient>
+      <radialGradient id="violet" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#b45cff" stop-opacity=".9"/><stop offset="1" stop-color="#b45cff" stop-opacity="0"/></radialGradient>
+      <linearGradient id="sunset" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7c3aed"/><stop offset=".55" stop-color="#f97316"/><stop offset="1" stop-color="#111827"/></linearGradient>
+      <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#17122d"/><stop offset="1" stop-color="#050713"/></linearGradient>
+      <filter id="shadow" x="-30%" y="-30%" width="170%" height="170%"><feDropShadow dx="0" dy="24" stdDeviation="26" flood-color="#000" flood-opacity=".58"/></filter>
+      <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="42"/></filter>
+      <filter id="neon" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="#b45cff" flood-opacity=".9"/></filter>
+    </defs><rect width="100%" height="100%" fill="url(#bg)"/>
+      <circle cx="1998.0" cy="506.25" r="702.0" fill="url(#violet)" filter="url(#glow)" opacity=".88"/>
+      <circle cx="351.0" cy="1680.75" r="594.0" fill="#7c3aed" filter="url(#glow)" opacity=".32"/>
+      <path d="M0,1741.5 C621.0,1539.0 1485.0000000000002,1944.0 2700,1579.5 L2700,2025 L0,2025Z" fill="#050713" opacity=".78"/><rect x="70" y="54" width="720" height="68" rx="34" fill="#0a0a18" stroke="#7c3aed" stroke-width="2"/>
+      <text x="108" y="99" class="small" font-size="28">DIGITAL DOWNLOAD  |  LAUNCH OFFER </text>
+      <text x="665" y="99" class="orange" font-size="30">$14.99</text><text x="92" y="285" class="h1" font-size="118">PERFECT FOR</text><text x="96" y="380" class="body" font-size="42">Creators building faster with AI tools</text><circle cx="170" cy="578" r="21" fill="#2b075e" stroke="#b45cff" stroke-width="3"/><text x="158" y="590" class="purple" font-size="31">✓</text><text x="218" y="590" class="body" font-size="54">Faceless creators</text><circle cx="170" cy="683" r="21" fill="#2b075e" stroke="#b45cff" stroke-width="3"/><text x="158" y="695" class="purple" font-size="31">✓</text><text x="218" y="695" class="body" font-size="54">Freelancers</text><circle cx="170" cy="788" r="21" fill="#2b075e" stroke="#b45cff" stroke-width="3"/><text x="158" y="800" class="purple" font-size="31">✓</text><text x="218" y="800" class="body" font-size="54">Coaches</text><circle cx="170" cy="893" r="21" fill="#2b075e" stroke="#b45cff" stroke-width="3"/><text x="158" y="905" class="purple" font-size="31">✓</text><text x="218" y="905" class="body" font-size="54">Digital product sellers</text><circle cx="170" cy="998" r="21" fill="#2b075e" stroke="#b45cff" stroke-width="3"/><text x="158" y="1010" class="purple" font-size="31">✓</text><text x="218" y="1010" class="body" font-size="54">AI tool beginners</text><circle cx="170" cy="1103" r="21" fill="#2b075e" stroke="#b45cff" stroke-width="3"/><text x="158" y="1115" class="purple" font-size="31">✓</text><text x="218" y="1115" class="body" font-size="54">Influencers testing new niches</text><g filter="url(#shadow)">
+      <rect x="1450" y="500" width="500" height="690" rx="22" fill="#f8fafc"/>
+      <rect x="1476" y="526" width="448" height="638" rx="18" fill="#0b1025"/>
+      <rect x="1500" y="690" width="400" height="390" rx="20" fill="url(#sunset)"/>
+      <circle cx="1785.0" cy="770" r="62" fill="#facc15" opacity=".7"/>
+      <circle cx="1710.0" cy="1000" r="54" fill="#050713"/><rect x="1690.0" y="1045" width="90" height="135" rx="38" fill="#050713"/>
+      <text x="1498" y="590" class="ai" font-size="42">AI</text><text x="1570" y="590" class="small" font-size="40">CREATOR KIT</text>
+      <text x="1498" y="640" class="muted" font-size="22">Launch Your Content Brand Faster</text>
+      <rect x="1500" y="1108" width="400" height="48" rx="24" fill="#b45cff"/>
+      <text x="1546" y="1140" class="small" font-size="22">INSTANT DOWNLOAD</text>
+    </g><g filter="url(#shadow)"><rect x="2010" y="665" width="450" height="190" rx="24" fill="url(#panel)" stroke="#b45cff" stroke-width="3"/><text x="2038" y="720" class="small" font-size="30">No Camera?</text><text x="2038" y="765" class="muted" font-size="24">Use prompts to create a</text><text x="2038" y="801" class="muted" font-size="24">faceless brand workflow</text></g><g filter="url(#shadow)"><rect x="2010" y="920" width="450" height="190" rx="24" fill="url(#panel)" stroke="#b45cff" stroke-width="3"/><text x="2038" y="975" class="small" font-size="30">No Strategy?</text><text x="2038" y="1020" class="muted" font-size="24">Use the planner to map</text><text x="2038" y="1056" class="muted" font-size="24">repeatable content</text></g><rect x="0" y="1855" width="2700" height="170" fill="#070716"/>
+      <rect x="88" y="1893" width="420" height="88" rx="44" fill="#b45cff" filter="url(#neon)"/><text x="142" y="1951" class="small" font-size="38">50% OFF TODAY</text>
+      <text x="650" y="1963" class="orange" font-size="76">$14.99</text><text x="940" y="1957" class="muted" font-size="38">$29.99</text><line x1="936" y1="1943" x2="1084" y2="1921" stroke="#a5b4fc" stroke-width="5"/>
+      <rect x="2080" y="1899" width="505" height="78" rx="39" fill="#0b1025" stroke="#facc15" stroke-width="3"/><text x="2118" y="1950" class="orange" font-size="30">7-DAY MONEY BACK GUARANTEE ★★★★★</text></svg>

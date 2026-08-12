@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1500" viewBox="0 0 1000 1500"><style>
+.h1{font-family:Arial Black,Arial,sans-serif;font-weight:900;letter-spacing:-5px;fill:#fff}
+.h1p{font-family:Arial Black,Arial,sans-serif;font-weight:900;letter-spacing:-5px;fill:#a855f7}
+.h2{font-family:Arial,Helvetica,sans-serif;font-weight:900;fill:#fff}
+.purple{font-family:Arial,Helvetica,sans-serif;font-weight:900;fill:#a855f7}
+.body{font-family:Arial,Helvetica,sans-serif;font-weight:700;fill:#e5e7eb}
+.muted{font-family:Arial,Helvetica,sans-serif;font-weight:700;fill:#94a3b8}
+.yellow{font-family:Arial Black,Arial,sans-serif;font-weight:900;fill:#facc15}
+.dark{font-family:Arial Black,Arial,sans-serif;font-weight:900;fill:#0b1020}
+.small{font-family:Arial,Helvetica,sans-serif;font-weight:800;fill:#f8fafc}
+</style><defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#050816"/><stop offset="52%" stop-color="#111827"/><stop offset="100%" stop-color="#220844"/></linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#a855f7" stop-opacity="0.75"/><stop offset="100%" stop-color="#a855f7" stop-opacity="0"/></radialGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1f2937"/><stop offset="100%" stop-color="#060914"/></linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#e5e7eb"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="170%" height="170%"><feDropShadow dx="0" dy="28" stdDeviation="28" flood-color="#000" flood-opacity="0.50"/></filter>
+    <filter id="neon" x="-40%" y="-40%" width="180%" height="180%"><feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="#a855f7" flood-opacity="0.85"/></filter>
+    <filter id="blur"><feGaussianBlur stdDeviation="55"/></filter>
+    </defs><rect width="100%" height="100%" fill="url(#bg)"/>
+    <circle cx="780.0" cy="420.00000000000006" r="220.0" fill="url(#glow)" filter="url(#blur)" opacity="0.9"/>
+    <circle cx="220.0" cy="1320.0" r="180.0" fill="#a855f7" filter="url(#blur)" opacity="0.22"/>
+    <path d="M0,1290.0 C300.0,1125.0 550.0,1425.0 1000,1170.0 L1000,1500 L0,1500 Z" fill="#0b1020" opacity="0.78"/>
+    <rect x="0" y="0" width="1000" height="92" fill="#020617"/><text x="90" y="60" class="small" font-size="34">DIGITAL DOWNLOAD</text><text x="70" y="190" class="h1p" font-size="74">SOCIAL</text><text x="70" y="280" class="h1" font-size="74">MEDIA PLANNER</text><text x="72" y="398" class="body" font-size="32">Workbook + prompt pack</text><rect x="70" y="520" width="860" height="365" rx="34" fill="#050816" stroke="#312e81" stroke-width="3" opacity="0.96" filter="url(#shadow)"/><text x="130" y="612" class="purple" font-size="42">✓</text><text x="185" y="612" class="body" font-size="42">100 AI Prompts</text><text x="130" y="684" class="purple" font-size="42">✓</text><text x="185" y="684" class="body" font-size="42">50 X Templates</text><text x="130" y="756" class="purple" font-size="42">✓</text><text x="185" y="756" class="body" font-size="42">30 YouTube Hooks</text><text x="130" y="828" class="purple" font-size="42">✓</text><text x="185" y="828" class="body" font-size="42">30 IG Captions</text><g filter="url(#shadow)">
+    <rect x="165" y="960" width="300" height="360" rx="24" fill="url(#paper)"/>
+    <rect x="193" y="988" width="244" height="304" rx="20" fill="#111827"/>
+    <circle cx="381.0" cy="1039.2" r="60.0" fill="#a855f7" opacity="0.55" filter="url(#neon)"/>
+    <text x="221" y="1090" class="h1p" font-size="54">AI</text>
+    <text x="221" y="1155" class="h2" font-size="54">CREATOR</text>
+    <text x="221" y="1220" class="h2" font-size="54">KIT</text>
+    <text x="221" y="1295" class="body" font-size="26">PDF</text>
+    <rect x="221" y="1180" width="188" height="54" rx="27" fill="#a855f7"/>
+    <text x="257" y="1215" class="small" font-size="24">DIGITAL DOWNLOAD</text>
+    </g><g filter="url(#shadow)">
+    <rect x="565" y="910" width="270" height="430" rx="58" fill="#020617" stroke="#475569" stroke-width="8"/>
+    <rect x="597" y="980" width="206" height="310" rx="34" fill="#0f172a"/>
+    <text x="623" y="1055" class="small" font-size="28">Creator Dashboard</text>
+    <rect x="623" y="1100" width="154" height="70" rx="18" fill="#2e1065"/>
+    <text x="647" y="1145" class="purple" font-size="28">100 AI Prompts</text>
+    <rect x="623" y="1202" width="154" height="45" rx="14" fill="#1e293b"/>
+    <rect x="623" y="1272" width="100" height="45" rx="14" fill="#1e293b"/>
+    <rect x="623" y="1342" width="135" height="45" rx="14" fill="#1e293b"/>
+    <rect x="623" y="1450" width="154" height="120" rx="22" fill="#a855f7" opacity="0.86"/>
+    <text x="653" y="1522" class="small" font-size="34">Plan → Post</text>
+    </g><rect x="70" y="1385" width="360" height="70" rx="35" fill="#facc15"/><text x="112" y="1431" class="dark" font-size="28">GET THE KIT</text></svg>

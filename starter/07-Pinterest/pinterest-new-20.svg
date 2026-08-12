@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1500" viewBox="0 0 1000 1500"><style>
+.title{font-family:Arial,Helvetica,sans-serif;font-weight:900;letter-spacing:-2px;fill:#fff}
+.titleDark{font-family:Arial,Helvetica,sans-serif;font-weight:900;letter-spacing:-1.5px;fill:#111827}
+.sub{font-family:Arial,Helvetica,sans-serif;font-weight:700;fill:#f8fafc}
+.muted{font-family:Arial,Helvetica,sans-serif;font-weight:700;fill:#475569}
+.small{font-family:Arial,Helvetica,sans-serif;font-weight:700;fill:#cbd5e1}
+.micro{font-family:Arial,Helvetica,sans-serif;font-weight:600;fill:#64748b}
+.badge{font-family:Arial,Helvetica,sans-serif;font-weight:900;fill:#0f172a}
+.white{font-family:Arial,Helvetica,sans-serif;font-weight:900;fill:#fff}
+</style>
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#080817"/>
+        <stop offset="45%" stop-color="#43208d"/>
+        <stop offset="100%" stop-color="#fb7a21"/>
+      </linearGradient>
+      <linearGradient id="cream" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#fff7ed"/>
+        <stop offset="100%" stop-color="#f8fafc"/>
+      </linearGradient>
+      <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#ffffff"/>
+        <stop offset="100%" stop-color="#f1f5f9"/>
+      </linearGradient>
+      <filter id="shadow" x="-20%" y="-20%" width="150%" height="150%">
+        <feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#000" flood-opacity="0.28"/>
+      </filter>
+      <filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="50"/></filter>
+    </defs>
+    
+    <rect width="100%" height="100%" fill="url(#bg)"/>
+    <circle cx="850" cy="160" r="260" fill="#fb923c" opacity="0.32" filter="url(#soft)"/>
+    <text x="70" y="230" class="title" font-size="78">Social Media</text><text x="70" y="326" class="title" font-size="78">Creator Planner</text>
+    <text x="72" y="452" class="small" font-size="34">Workbook + prompt pack</text>
+    <rect x="70" y="517" width="860" height="105" rx="36" fill="#ffffff" opacity="0.96"/>
+    <text x="115" y="584" class="titleDark" font-size="34">Create consistently</text>
+    
+    <g filter="url(#shadow)">
+      <rect x="150" y="760" width="700" height="480" rx="28" fill="url(#paper)"/>
+      <rect x="150" y="760" width="700" height="125" rx="28" fill="#fb7a21"/>
+      <rect x="150" y="852" width="700" height="45" fill="#fb7a21"/>
+      <text x="194" y="838" class="white" font-size="38">PDF</text>
+      <text x="194" y="970" class="titleDark" font-size="44">AI Creator Kit</text>
+      <text x="194" y="1070" class="micro" font-size="30">PDF bundle</text>
+      <rect x="194" y="1120" width="612" height="16" rx="8" fill="#e5e7eb"/>
+      <rect x="194" y="1165" width="550" height="16" rx="8" fill="#e5e7eb"/>
+      <rect x="194" y="1210" width="585" height="16" rx="8" fill="#e5e7eb"/>
+      <circle cx="762" cy="1162" r="44" fill="#fb7a21" opacity="0.9"/>
+    </g>
+    <rect x="70" y="1325" width="540" height="78" rx="39" fill="#ffffff" opacity="0.95"/>
+    <text x="115" y="1377" class="titleDark" font-size="30">Instant Digital Download</text>
+    </svg>

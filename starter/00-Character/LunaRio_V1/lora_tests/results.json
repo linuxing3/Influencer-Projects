@@ -1,0 +1,52 @@
+[
+  {
+    "id": "01_studio_portrait",
+    "prompt": "lunario, Luna Rio, asian-brazilian virtual influencer, fair skin, long black wavy hair with bangs, dark brown eyes, front view natural smile, clean white studio background, realistic photography, sharp face",
+    "scale": 0.9,
+    "image_size": "portrait_4_3",
+    "seed": 3192956810507468024,
+    "url": "https://v3b.fal.media/files/b/0aa19bbc/641qXWQhhL0ffE8rhlqGk.jpg",
+    "local": "LunaRio_V1/lora_tests/01_studio_portrait.jpg",
+    "ok": true
+  },
+  {
+    "id": "02_argentina_fan",
+    "prompt": "lunario, Luna Rio, asian-brazilian virtual influencer, long black wavy hair with bangs, dark brown eyes, wearing light blue and white striped Argentina football fan t-shirt and shorts, sitting on sofa holding tablet, cozy living room, realistic photography",
+    "scale": 0.85,
+    "image_size": "landscape_16_9",
+    "seed": 3668365802696824026,
+    "url": "https://v3b.fal.media/files/b/0aa19bb2/hhClJp-vYQn4i6BL2YKwG.jpg",
+    "local": "LunaRio_V1/lora_tests/02_argentina_fan.jpg",
+    "ok": true
+  },
+  {
+    "id": "03_beach_travel",
+    "prompt": "lunario, Luna Rio, asian-brazilian virtual influencer, long black wavy hair with bangs, yellow BRASIL crop top, green athletic shorts, walking near Copacabana beach sunny day, travel influencer style, realistic photography",
+    "scale": 0.85,
+    "image_size": "portrait_4_3",
+    "seed": 6359481913292419782,
+    "url": "https://v3b.fal.media/files/b/0aa19bb3/oJvP-rHQ-YVX9awEoWD8D.jpg",
+    "local": "LunaRio_V1/lora_tests/03_beach_travel.jpg",
+    "ok": true
+  },
+  {
+    "id": "04_coffee_shop",
+    "prompt": "lunario, Luna Rio, asian-brazilian virtual influencer, long black wavy hair with bangs, dark brown eyes, sitting in cozy Sao Paulo coffee shop holding coffee cup, warm window light, realistic lifestyle photography",
+    "scale": 0.85,
+    "image_size": "portrait_4_3",
+    "seed": 2875044304179156436,
+    "url": "https://v3b.fal.media/files/b/0aa19bb3/Y_eURXsIxpiofbA3U5YkI.jpg",
+    "local": "LunaRio_V1/lora_tests/04_coffee_shop.jpg",
+    "ok": true
+  },
+  {
+    "id": "05_outfit_change",
+    "prompt": "lunario, Luna Rio, asian-brazilian virtual influencer, long black wavy hair with bangs, dark brown eyes, elegant black evening dress, city rooftop golden hour, fashion portrait, realistic photography",
+    "scale": 0.8,
+    "image_size": "portrait_4_3",
+    "seed": 5355071520326030672,
+    "url": "https://v3b.fal.media/files/b/0aa19bbf/yOkqwthRgKxGzHXUa3bfD.jpg",
+    "local": "LunaRio_V1/lora_tests/05_outfit_change.jpg",
+    "ok": true
+  }
+]

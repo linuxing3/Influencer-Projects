@@ -1,0 +1,39 @@
+from pathlib import Path
+import subprocess
+import re
+
+ROOT = Path('/sources/AI-Virtual-Influencer-Starter-Kit/02-Prompts')
+CSS = ROOT / 'style.css'
+CSS.write_text('''
+@page { size: Letter; margin: 0.62in; }
+body { font-family: Arial, Helvetica, sans-serif; color: #161616; line-height: 1.35; font-size: 12px; }
+h1 { font-size: 30px; line-height: 1.08; margin: 0 0 10px; color: #111827; }
+h2 { font-size: 16px; margin: 12px 0 7px; color: #7c2d12; }
+h3 { font-size: 13px; margin: 9px 0 5px; color: #374151; }
+p { margin: 6px 0; }
+ul, ol { margin: 6px 0 6px 20px; padding: 0; }
+li { margin: 3px 0; }
+pre { background: #f8fafc; border: 1px solid #e5e7eb; padding: 8px; border-radius: 7px; white-space: pre-wrap; font-size: 10.2px; line-height: 1.25; }
+code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+.pagebreak { break-before: page; page-break-before: always; }
+''')
+
+files = [
+    '100-AI-Influencer-Prompts.md',
+    'Bonus-50-Viral-X-Post-Templates.md',
+    'Bonus-30-YouTube-Hooks.md',
+    'Bonus-30-Instagram-Captions.md',
+]
+
+for name in files:
+    src = ROOT / name
+    text = src.read_text()
+    text = text.replace('\\newpage', '<div class="pagebreak"></div>')
+    tmp = ROOT / (src.stem + '.print.md')
+    html = ROOT / (src.stem + '.html')
+    pdf = ROOT / (src.stem + '.pdf')
+    tmp.write_text(text)
+    subprocess.run(['pandoc', str(tmp), '-s', '--css', str(CSS), '-o', str(html)], check=True)
+    url = 'file://' + str(html).replace(' ', '%20')
+    subprocess.run(['chromium', '--headless', '--no-sandbox', '--disable-gpu', f'--print-to-pdf={pdf}', url], check=True)
+    print(pdf)

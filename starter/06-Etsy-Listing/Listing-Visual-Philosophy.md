@@ -1,0 +1,9 @@
+# Listing Visual Philosophy — Synthetic Magazine Commerce
+
+Synthetic Magazine Commerce treats a digital product bundle as a premium editorial object rather than a flat software download. The design language uses large spatial blocks, sharp contrast, luminous gradients, and mock-document forms to communicate value before the buyer reads details. The composition should feel meticulously crafted, as if every object was positioned after many careful passes by a senior art director.
+
+The visual system is built around the tension between futuristic AI energy and practical beginner clarity. Dark violet, near-black, white, and hot orange create a high-conversion contrast system: premium enough for an AI product, warm enough for Etsy shoppers. Text is sparse and commercial; the images carry the promise of the bundle through layered PDF mockups, modular cards, and repeated feature blocks.
+
+Hierarchy is intentionally blunt: the shopper must understand the product in under three seconds. Big title, clear bundle promise, visible inclusions, and instant-download reassurance dominate the Etsy carousel. The execution should remain clean, grid-driven, and master-level, with generous margins and no decorative clutter that competes with buyer comprehension.
+
+Pinterest variants stretch the same language vertically, turning the product into a scroll-stopping editorial poster. The pins need to behave like visual hooks: a buyer should instantly see “AI influencer,” “100 prompts,” or “faceless creator brand,” then click for the full bundle. The final assets should look carefully built, premium, and ready for marketplace use, not like generic AI art.

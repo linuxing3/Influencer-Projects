@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2700" height="2025" viewBox="0 0 2700 2025"><style>
+.title{font-family:Arial,Helvetica,sans-serif;font-weight:900;letter-spacing:-2px;fill:#fff}
+.titleDark{font-family:Arial,Helvetica,sans-serif;font-weight:900;letter-spacing:-1.5px;fill:#111827}
+.sub{font-family:Arial,Helvetica,sans-serif;font-weight:700;fill:#f8fafc}
+.muted{font-family:Arial,Helvetica,sans-serif;font-weight:700;fill:#475569}
+.small{font-family:Arial,Helvetica,sans-serif;font-weight:700;fill:#cbd5e1}
+.micro{font-family:Arial,Helvetica,sans-serif;font-weight:600;fill:#64748b}
+.badge{font-family:Arial,Helvetica,sans-serif;font-weight:900;fill:#0f172a}
+.white{font-family:Arial,Helvetica,sans-serif;font-weight:900;fill:#fff}
+</style>
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#080817"/>
+        <stop offset="45%" stop-color="#43208d"/>
+        <stop offset="100%" stop-color="#fb7a21"/>
+      </linearGradient>
+      <linearGradient id="cream" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#fff7ed"/>
+        <stop offset="100%" stop-color="#f8fafc"/>
+      </linearGradient>
+      <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#ffffff"/>
+        <stop offset="100%" stop-color="#f1f5f9"/>
+      </linearGradient>
+      <filter id="shadow" x="-20%" y="-20%" width="150%" height="150%">
+        <feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#000" flood-opacity="0.28"/>
+      </filter>
+      <filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="50"/></filter>
+    </defs>
+    
+<rect width="100%" height="100%" fill="url(#bg)"/>
+<text x="145" y="220" class="title" font-size="112">Bonus Stack</text>
+<text x="150" y="325" class="small" font-size="46">More than a workbook — a usable content bundle</text>
+
+    <g filter="url(#shadow)">
+      <rect x="210" y="560" width="650" height="780" rx="28" fill="url(#paper)"/>
+      <rect x="210" y="560" width="650" height="125" rx="28" fill="#111827"/>
+      <rect x="210" y="652" width="650" height="45" fill="#111827"/>
+      <text x="254" y="638" class="white" font-size="38">PDF</text>
+      <text x="254" y="770" class="titleDark" font-size="44">50 X Templates</text>
+      <text x="254" y="870" class="micro" font-size="30">growth posts</text>
+      <rect x="254" y="920" width="562" height="16" rx="8" fill="#e5e7eb"/>
+      <rect x="254" y="965" width="500" height="16" rx="8" fill="#e5e7eb"/>
+      <rect x="254" y="1010" width="535" height="16" rx="8" fill="#e5e7eb"/>
+      <circle cx="772" cy="1262" r="44" fill="#111827" opacity="0.9"/>
+    </g>
+
+    <g filter="url(#shadow)">
+      <rect x="1010" y="560" width="650" height="780" rx="28" fill="url(#paper)"/>
+      <rect x="1010" y="560" width="650" height="125" rx="28" fill="#dc2626"/>
+      <rect x="1010" y="652" width="650" height="45" fill="#dc2626"/>
+      <text x="1054" y="638" class="white" font-size="38">PDF</text>
+      <text x="1054" y="770" class="titleDark" font-size="44">30 YouTube Hooks</text>
+      <text x="1054" y="870" class="micro" font-size="30">short-form ideas</text>
+      <rect x="1054" y="920" width="562" height="16" rx="8" fill="#e5e7eb"/>
+      <rect x="1054" y="965" width="500" height="16" rx="8" fill="#e5e7eb"/>
+      <rect x="1054" y="1010" width="535" height="16" rx="8" fill="#e5e7eb"/>
+      <circle cx="1572" cy="1262" r="44" fill="#dc2626" opacity="0.9"/>
+    </g>
+
+    <g filter="url(#shadow)">
+      <rect x="1810" y="560" width="650" height="780" rx="28" fill="url(#paper)"/>
+      <rect x="1810" y="560" width="650" height="125" rx="28" fill="#ec4899"/>
+      <rect x="1810" y="652" width="650" height="45" fill="#ec4899"/>
+      <text x="1854" y="638" class="white" font-size="38">PDF</text>
+      <text x="1854" y="770" class="titleDark" font-size="44">30 IG Captions</text>
+      <text x="1854" y="870" class="micro" font-size="30">ready captions</text>
+      <rect x="1854" y="920" width="562" height="16" rx="8" fill="#e5e7eb"/>
+      <rect x="1854" y="965" width="500" height="16" rx="8" fill="#e5e7eb"/>
+      <rect x="1854" y="1010" width="535" height="16" rx="8" fill="#e5e7eb"/>
+      <circle cx="2372" cy="1262" r="44" fill="#ec4899" opacity="0.9"/>
+    </g>
+<rect x="145" y="1580" width="1020" height="115" rx="58" fill="#ffffff"/>
+<text x="225" y="1655" class="titleDark" font-size="48">INCLUDED WITH THE BUNDLE</text>
+</svg>

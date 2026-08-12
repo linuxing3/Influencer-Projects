@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2700" height="2025" viewBox="0 0 2700 2025"><style>
+.h1{font-family:Arial Black,Arial,sans-serif;font-weight:900;letter-spacing:-5px;fill:#fff}
+.ai{font-family:Arial Black,Arial,sans-serif;font-weight:900;letter-spacing:-5px;fill:#b45cff}
+.h2{font-family:Arial Black,Arial,sans-serif;font-weight:900;fill:#fff}
+.body{font-family:Arial,Helvetica,sans-serif;font-weight:800;fill:#eef2ff}
+.muted{font-family:Arial,Helvetica,sans-serif;font-weight:700;fill:#a5b4fc}
+.purple{font-family:Arial Black,Arial,sans-serif;font-weight:900;fill:#b45cff}
+.orange{font-family:Arial Black,Arial,sans-serif;font-weight:900;fill:#ffb703}
+.dark{font-family:Arial Black,Arial,sans-serif;font-weight:900;fill:#080816}
+.small{font-family:Arial,Helvetica,sans-serif;font-weight:900;fill:#fff}
+</style><defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#03030b"/><stop offset="0.42" stop-color="#0b1025"/><stop offset="1" stop-color="#2b075e"/></linearGradient>
+      <radialGradient id="violet" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#b45cff" stop-opacity=".9"/><stop offset="1" stop-color="#b45cff" stop-opacity="0"/></radialGradient>
+      <linearGradient id="sunset" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7c3aed"/><stop offset=".55" stop-color="#f97316"/><stop offset="1" stop-color="#111827"/></linearGradient>
+      <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#17122d"/><stop offset="1" stop-color="#050713"/></linearGradient>
+      <filter id="shadow" x="-30%" y="-30%" width="170%" height="170%"><feDropShadow dx="0" dy="24" stdDeviation="26" flood-color="#000" flood-opacity=".58"/></filter>
+      <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="42"/></filter>
+      <filter id="neon" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="#b45cff" flood-opacity=".9"/></filter>
+    </defs><rect width="100%" height="100%" fill="url(#bg)"/>
+      <circle cx="1998.0" cy="506.25" r="702.0" fill="url(#violet)" filter="url(#glow)" opacity=".88"/>
+      <circle cx="351.0" cy="1680.75" r="594.0" fill="#7c3aed" filter="url(#glow)" opacity=".32"/>
+      <path d="M0,1741.5 C621.0,1539.0 1485.0000000000002,1944.0 2700,1579.5 L2700,2025 L0,2025Z" fill="#050713" opacity=".78"/><rect x="70" y="54" width="720" height="68" rx="34" fill="#0a0a18" stroke="#7c3aed" stroke-width="2"/>
+      <text x="108" y="99" class="small" font-size="28">DIGITAL DOWNLOAD  |  LAUNCH OFFER </text>
+      <text x="665" y="99" class="orange" font-size="30">$14.99</text><text x="92" y="285" class="h1" font-size="112">TEMPLATES THAT SELL THE IDEA</text><text x="96" y="380" class="body" font-size="42">X posts, hooks and captions buyers can use immediately</text><g filter="url(#shadow)"><rect x="130" y="540" width="760" height="560" rx="24" fill="url(#panel)" stroke="#b45cff" stroke-width="3"/><text x="158" y="595" class="small" font-size="30">50 X Templates</text><text x="158" y="640" class="muted" font-size="24">I spent [timeframe] testing [workflow].</text><text x="158" y="676" class="muted" font-size="24">Here are [number] lessons nobody tells you:</text><text x="158" y="712" class="muted" font-size="24">1. [Lesson]  2. [Lesson]  3. [Lesson]</text></g><g filter="url(#shadow)"><rect x="970" y="540" width="760" height="560" rx="24" fill="url(#panel)" stroke="#b45cff" stroke-width="3"/><text x="998" y="595" class="small" font-size="30">30 YouTube Hooks</text><text x="998" y="640" class="muted" font-size="24">“I built an AI content brand in 7 days.”</text><text x="998" y="676" class="muted" font-size="24">“Steal this prompt system for 30 posts.”</text><text x="998" y="712" class="muted" font-size="24">“Nobody talks about this AI workflow.”</text></g><g filter="url(#shadow)"><rect x="1810" y="540" width="760" height="560" rx="24" fill="url(#panel)" stroke="#b45cff" stroke-width="3"/><text x="1838" y="595" class="small" font-size="30">30 IG Captions</text><text x="1838" y="640" class="muted" font-size="24">Somewhere between work and adventure.</text><text x="1838" y="676" class="muted" font-size="24">Building quietly, posting consistently.</text><text x="1838" y="712" class="muted" font-size="24">More signal. Less noise. More creation.</text></g><g filter="url(#shadow)">
+      <rect x="680" y="1230" width="880" height="430" rx="26" fill="#0b1025" stroke="#4c1d95" stroke-width="5"/>
+      <rect x="715" y="1278" width="810" height="335" rx="18" fill="#111827"/>
+      <text x="750" y="1335" class="small" font-size="26">Creator OS Dashboard</text>
+      <rect x="750" y="1375" width="740" height="74" rx="16" fill="#2b075e"/><text x="775" y="1422" class="purple" font-size="26">Today’s Focus: Plan → Create → Post</text>
+      <rect x="750" y="1480" width="355.0" height="116" rx="18" fill="#172554"/><text x="775" y="1545" class="small" font-size="24">Content Pipeline</text>
+      <rect x="1130.0" y="1480" width="355.0" height="116" rx="18" fill="#312e81"/><text x="1160.0" y="1545" class="small" font-size="24">Content Calendar</text>
+      <rect x="760" y="1650" width="720" height="34" rx="17" fill="#0f172a"/>
+    </g><g filter="url(#shadow)"><rect x="1670" y="1180" width="300" height="480" rx="42" fill="#030712" stroke="#64748b" stroke-width="6"/>
+      <rect x="1695" y="1238" width="250" height="388" rx="28" fill="#111827"/>
+      <text x="1715" y="1300" class="small" font-size="22">Social Post</text>
+      <rect x="1715" y="1335" width="210" height="108" rx="18" fill="#2b075e"/><text x="1734" y="1395" class="purple" font-size="24">Hook + Caption</text>
+      <rect x="1715" y="1475" width="210" height="30" rx="12" fill="#334155"/><rect x="1715" y="1525" width="170" height="30" rx="12" fill="#334155"/>
+    </g><rect x="0" y="1855" width="2700" height="170" fill="#070716"/>
+      <rect x="88" y="1893" width="420" height="88" rx="44" fill="#b45cff" filter="url(#neon)"/><text x="142" y="1951" class="small" font-size="38">50% OFF TODAY</text>
+      <text x="650" y="1963" class="orange" font-size="76">$14.99</text><text x="940" y="1957" class="muted" font-size="38">$29.99</text><line x1="936" y1="1943" x2="1084" y2="1921" stroke="#a5b4fc" stroke-width="5"/>
+      <rect x="2080" y="1899" width="505" height="78" rx="39" fill="#0b1025" stroke="#facc15" stroke-width="3"/><text x="2118" y="1950" class="orange" font-size="30">7-DAY MONEY BACK GUARANTEE ★★★★★</text></svg>
